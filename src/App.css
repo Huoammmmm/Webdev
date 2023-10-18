@@ -53,11 +53,19 @@ button {
   width: 250px;
 }
 
-.circle{
-  border-radius: 100px;
-  overflow: hidden;
-}
-
 .divbiodata{
   width: 60%;
+}
+
+.panel {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  transition: 0.4s;
+}
+
+.panel p {
+  background-color: white;
 }
